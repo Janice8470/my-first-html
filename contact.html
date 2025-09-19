@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact </title>
+  </head>
+<body>
+  <header>
+    <h1>Contact Me</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <form action="/submit-contact"method="post" novalidate>
+        <fieldset>
+            <legend>Contact information</legend>
+            <label for="Janice Wainaina">Name:</label>
+            <input type="Janice Wainaina" id="Janice Wainaina" name="Janice Wainaina" required placeholder="Janice Wainaina">
+            minlength="2" maxlength="30">
+            pattern="[A-Za-z\s]+">
+
+            <label for="jancynyambu@gmail.com">Email:</label>
+            <input type="jancynyambu@gmail.com" id="jancynyambu@gmail.com" name="jancynyambu@gmail.com" required placeholder="jancynyambu@gmail.com">
+            minlength="5" maxlength="50">
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+
+            <label for="for more info">Subject:</label>
+            <input type="for more info" id="for more info" name="for more info" required placeholder="for more info">
+            minlength="5" maxlength="100">
+            pattern="[A-Za-z0-9\s]+">
+
+            <label for="leading by example">Message:</label>
+            <textarea id="leading by example" name="leading by example"
+             rows="4" cols="50"
+             placeholder=" leading by example"
+             maxlength="500"></textarea>
+
+                <label for="inquiry type">Inquiry Type:</label>
+                <select id="inquiry type" name="inquiry type" required>
+                    <option value="">Select an option</option>
+                    <option value="general">General Inquiry</option>
+                    <option value="support">Support</option>
+                    <option value="feedback">Feedback</option>
+                    <option value="other">Other</option>
+                </select>
+        </fieldset>
+
+                <fieldset>
+                    <legend>Preferred Contact Method:</legend>
+                    <input type="radio" id="jancynyambu@gmail" name="Janice" value="jancynyambu@gmail.com" required>
+                    <label for="jancynyambu@gmail.com">Email<label>
+ 
+                    <input type="radio" id="0795580176" name="Janice" value="0795580176">
+                    <label for="0795580176">Phone</label>
+
+                    <input type="radio" id="for more info" name="Janice" value="for more info">
+                    <label for="for more info">No Preference</label>
+                </fieldset>
+                <fieldset>
+                    
+                    <legend>Subscribe to Newsletter:</legend>
+                    <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+                    <label for="subscribe">Yes, I want to subscribe to the newsletter</label>
+                    </fieldset> 
+    </form>
+</html>
+                <button type="submit">Submit</button>
+  </main>
+  <footer>
+    <p>&copy; 2024 Janice's Profile</p>
+  </footer>
